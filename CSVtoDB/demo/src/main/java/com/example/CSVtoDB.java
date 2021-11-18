@@ -55,7 +55,7 @@ public class CSVtoDB {
                 String jmeno_zam = data[4];
                 String prijmeni_zam = data[5];
 
-                // vloženi do relační tabulky
+                // vloženi do relační databáze
                 statement.setInt(1, parseInt(IČO));
                 statement.setString(2, nazev_firmy);
                 statement.setString(3, adresa_firmy);
